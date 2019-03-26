@@ -1,0 +1,19 @@
+{
+  "name": "jasonmx/symfony-extend-bundle",
+  "description": "Symfony Extend Bundle",
+  "autoload": {
+    "psr-4": {
+      "JasonMx\\ExtendBundle\\": "/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Krystian Jasnos",
+      "email": "dzejson91@gmail.com"
+    }
+  ],
+  "require": {
+    "doctrine/dbal": "^2.9",
+    "ifsnop/mysqldump-php": "^2.6"
+  }
+}
